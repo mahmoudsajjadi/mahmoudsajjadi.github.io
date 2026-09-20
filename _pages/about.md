@@ -6,7 +6,7 @@ subtitle: AI Researcher &amp; Engineer &mdash; Distributed ML &middot; Healthcar
 
 profile:
   align: right
-  # image: prof_pic.jpg   # add assets/img/prof_pic.jpg then remove the leading #
+  image: prof_pic.jpg
   image_circular: true
   more_info: >
     <p>Ph.D., Computer Science &amp; Engineering</p>

@@ -1,0 +1,8 @@
+github_users:
+  - mahmoudsajjadi
+
+repo_description_lines_max: 2
+
+# Add repositories you want to feature, e.g. "mahmoudsajjadi/my-repo"
+# github_repos:
+#   - mahmoudsajjadi/my-repo

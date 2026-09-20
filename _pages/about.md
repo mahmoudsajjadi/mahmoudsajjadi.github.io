@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>Ph.D., Computer Science &amp; Engineering</p>
+    <p>Ph.D., Computer Science &amp; Engineering, 2025</p>
     <p>University of Nevada, Reno</p>
     <p>Reno, Nevada, USA</p>
 
@@ -17,7 +17,9 @@ selected_papers: true
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false

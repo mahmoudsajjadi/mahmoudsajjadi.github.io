@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From Generative AI to Innovative AI: An Evolutionary Roadmap | Seyed Mahmoud Sajjadi Mohammadabadi</title>
+  <meta name="description" content="Analyzes the transition from pattern-replicating Generative AI to autonomous hypothesis generation and scientific discovery in Innovative AI. Proposes a structural roadmap integrating meta-learning, symbolic grounding, and causal exploration....">
+  <link rel="canonical" href="https://mahmoudsajjadi.github.io/papers/generative-to-innovative-ai-roadmap.html">
+
+  <!-- Highwire Press Meta Tags for Academic Indexing -->
+  <meta name="citation_title" content="From Generative AI to Innovative AI: An Evolutionary Roadmap">
+  <meta name="citation_author" content="Seyed Mahmoud Sajjadi Mohammadabadi">
+  <meta name="citation_publication_date" content="2025/03/18">
+  <meta name="citation_journal_title" content="arXiv preprint arXiv:2503.11419">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2503.11419.pdf">
+  <meta name="citation_abstract_html_url" content="https://mahmoudsajjadi.github.io/papers/generative-to-innovative-ai-roadmap.html">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="From Generative AI to Innovative AI: An Evolutionary Roadmap">
+  <meta property="og:description" content="Analyzes the transition from pattern-replicating Generative AI to autonomous hypothesis generation and scientific discovery in Innovative AI. Proposes a structural roadmap integrating meta-learning, s...">
+  <meta property="og:url" content="https://mahmoudsajjadi.github.io/papers/generative-to-innovative-ai-roadmap.html">
+  <meta property="article:author" content="https://mahmoudsajjadi.github.io/">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://mahmoudsajjadi.github.io/#author",
+      "name": "Seyed Mahmoud Sajjadi Mohammadabadi",
+      "alternateName": [
+        "Mahmoud Sajjadi",
+        "Dr. Mahmoud Sajjadi",
+        "S. M. Sajjadi Mohammadabadi"
+      ],
+      "jobTitle": "AI Systems Researcher & Ph.D. in Computer Science and Engineering",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Nevada, Reno",
+        "url": "https://www.unr.edu"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Nevada, Reno"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Tehran"
+        }
+      ],
+      "url": "https://mahmoudsajjadi.github.io/",
+      "sameAs": [
+        "https://scholar.google.com/citations?user=tkhCR5IAAAAJ&hl=en",
+        "https://www.linkedin.com/in/mahmoudsajjadi/",
+        "https://github.com/mahmoudsajjadi",
+        "https://orcid.org/0009-0007-7427-4402"
+      ],
+      "knowsAbout": [
+        "Federated Learning",
+        "Decentralized Multi-Agent Learning",
+        "Large Language Models",
+        "Parameter-Efficient Fine-Tuning (PEFT)",
+        "Self-Supervised Learning",
+        "Smart Grid Informatics & PMU Telemetry",
+        "Wearable Healthcare Biomarkers"
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://mahmoudsajjadi.github.io/papers/generative-to-innovative-ai-roadmap.html",
+      "headline": "From Generative AI to Innovative AI: An Evolutionary Roadmap",
+      "name": "From Generative AI to Innovative AI: An Evolutionary Roadmap",
+      "author": [
+        {
+          "@id": "https://mahmoudsajjadi.github.io/#author"
+        }
+      ],
+      "datePublished": "2025-03-18",
+      "url": "https://mahmoudsajjadi.github.io/papers/generative-to-innovative-ai-roadmap.html",
+      "description": "Analyzes the transition from pattern-replicating Generative AI to autonomous hypothesis generation and scientific discovery in Innovative AI. Proposes a structural roadmap integrating meta-learning, symbolic grounding, and causal exploration."
+    }
+  ]
+}
+  </script>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --accent-hover: #79c0ff;
+      --success: #3fb950;
+      --text: #c9d1d9;
+      --text-muted: #8b949e;
+      --gold: #f0883e;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); padding: 2rem 1rem; line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; }
+    
+    .breadcrumb { margin-bottom: 1.5rem; font-size: 0.88rem; color: var(--text-muted); }
+    .breadcrumb a { color: var(--accent); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    
+    .paper-header { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 2rem; margin-bottom: 2rem; }
+    .topic-badge { display: inline-block; background: #21262d; color: var(--accent); border: 1px solid #30363d; font-size: 0.78rem; font-weight: 600; padding: 0.25rem 0.65rem; border-radius: 4px; text-transform: uppercase; margin-bottom: 1rem; }
+    h1 { font-size: 2rem; color: #fff; margin-bottom: 1rem; line-height: 1.3; font-weight: 700; }
+    .authors { font-size: 1.05rem; color: #8b949e; margin-bottom: 0.75rem; }
+    .authors strong { color: #f0f6fc; }
+    .venue-info { font-size: 0.95rem; color: var(--gold); font-weight: 600; margin-bottom: 1rem; }
+    .impact-pill { background: rgba(240, 136, 62, 0.15); border: 1px solid rgba(240, 136, 62, 0.4); color: #ffa657; font-size: 0.8rem; padding: 0.2rem 0.6rem; border-radius: 4px; display: inline-block; }
+    
+    .action-bar { display: flex; gap: 0.65rem; flex-wrap: wrap; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+    .action-btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; font-size: 0.88rem; font-weight: 600; border-radius: 6px; text-decoration: none; cursor: pointer; transition: 0.15s; border: 1px solid var(--border); background: #21262d; color: #c9d1d9; }
+    .action-btn:hover { background: #30363d; color: #fff; }
+    .action-btn.primary { background: #238636; border-color: #2ea043; color: #fff; }
+    .action-btn.primary:hover { background: #2ea043; }
+    .action-btn.scholar-link { background: #1f6feb; border-color: #388bfd; color: #fff; }
+    .action-btn.scholar-link:hover { background: #388bfd; }
+    
+    .section-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 1.8rem; margin-bottom: 2rem; }
+    .section-title { font-size: 1.25rem; color: #fff; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    .abstract-text { font-size: 1rem; color: #c9d1d9; line-height: 1.7; }
+    
+    .bibtex-box { background: #0a0c10; border: 1px solid var(--border); border-radius: 6px; padding: 1.2rem; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.85rem; color: #79c0ff; overflow-x: auto; white-space: pre-wrap; word-break: break-all; margin-top: 1rem; }
+    
+    .author-card { display: flex; gap: 1.25rem; align-items: center; background: #11161d; border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; margin-top: 1.5rem; }
+    .author-avatar { width: 64px; height: 64px; border-radius: 50%; background: #21262d; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; }
+    .author-details h3 { font-size: 1.1rem; color: #fff; margin-bottom: 0.25rem; }
+    .author-details p { font-size: 0.88rem; color: var(--text-muted); }
+    
+    footer { text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.88rem; }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    
+    #copyToast { position: fixed; bottom: 20px; right: 20px; background: #238636; color: #fff; padding: 0.75rem 1.25rem; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.4); display: none; font-weight: 600; z-index: 1000; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="https://mahmoudsajjadi.github.io/">Home</a> &rsaquo; 
+      <a href="https://mahmoudsajjadi.github.io/research-hub.html">Research Hub</a> &rsaquo; 
+      <span>generative-to-innovative-ai-roadmap</span>
+    </div>
+
+    <header class="paper-header">
+      <span class="topic-badge">Foundation Models & AI Theory</span>
+      <h1>From Generative AI to Innovative AI: An Evolutionary Roadmap</h1>
+      <div class="authors"><strong>Seyed Mahmoud Sajjadi Mohammadabadi</strong></div>
+      <div class="venue-info">
+        <span>arXiv preprint arXiv:2503.11419 &bull; 2025</span>
+        <span class="impact-pill" style="margin-left: 0.5rem;">Sole Author | Evolutionary Synthesis Roadmap</span>
+      </div>
+
+      <div class="action-bar">
+        <a class="action-btn primary" href="https://arxiv.org/abs/2503.11419" target="_blank">📄 arXiv Preprint</a> <a class="action-btn scholar-link" href="https://scholar.google.com/citations?user=tkhCR5IAAAAJ&hl=en" target="_blank">🎓 Google Scholar Record</a>
+        <button class="action-btn" onclick="copyBibtexDirect()">⚡ 1-Click BibTeX Copy</button>
+      </div>
+    </header>
+
+    <section class="section-card">
+      <h2 class="section-title">Abstract</h2>
+      <p class="abstract-text">Analyzes the transition from pattern-replicating Generative AI to autonomous hypothesis generation and scientific discovery in Innovative AI. Proposes a structural roadmap integrating meta-learning, symbolic grounding, and causal exploration.</p>
+    </section>
+
+    <section class="section-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+        <h2 class="section-title" style="border-bottom: none; margin-bottom: 0; padding-bottom: 0;">BibTeX Citation</h2>
+        <button class="action-btn" onclick="copyBibtexDirect()" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">📋 Copy Entry</button>
+      </div>
+      <pre id="bibtexBlock" class="bibtex-box">@article{mohammadabadi2025innovative,
+  title     = {From Generative {AI} to Innovative {AI}: An Evolutionary Roadmap},
+  author    = {Sajjadi Mohammadabadi, Seyed Mahmoud},
+  journal   = {arXiv preprint arXiv:2503.11419},
+  year      = {2025}
+}</pre>
+    </section>
+
+    <section class="section-card">
+      <h2 class="section-title">Author Profile</h2>
+      <div class="author-card">
+        <div class="author-avatar">🧠</div>
+        <div class="author-details">
+          <h3>Seyed Mahmoud Sajjadi Mohammadabadi, Ph.D.</h3>
+          <p>AI Systems Researcher &bull; University of Nevada, Reno &bull; Connected Future Labs</p>
+          <p style="margin-top: 0.4rem;">
+            <a href="https://scholar.google.com/citations?user=tkhCR5IAAAAJ&hl=en" style="color:var(--accent); text-decoration:none;" target="_blank">Google Scholar (430+ Citations)</a> &bull;
+            <a href="https://www.linkedin.com/in/mahmoudsajjadi/" style="color:var(--accent); text-decoration:none;" target="_blank">LinkedIn</a> &bull;
+            <a href="https://github.com/mahmoudsajjadi" style="color:var(--accent); text-decoration:none;" target="_blank">GitHub (@mahmoudsajjadi)</a> &bull;
+            <a href="https://orcid.org/0009-0007-7427-4402" style="color:var(--accent); text-decoration:none;" target="_blank">ORCID</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Authoritative Academic Publication Page &bull; Seyed Mahmoud Sajjadi Mohammadabadi &bull;
+        <a href="https://mahmoudsajjadi.github.io/research-hub.html">Return to Research Hub</a>
+      </p>
+    </footer>
+  </div>
+
+  <div id="copyToast">✅ BibTeX copied to clipboard!</div>
+
+  <script>
+    function copyBibtexDirect() {
+      const text = document.getElementById('bibtexBlock').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('copyToast');
+        toast.style.display = 'block';
+        setTimeout(() => { toast.style.display = 'none'; }, 2500);
+      }).catch(err => {
+        console.error('Failed to copy', err);
+      });
+    }
+  </script>
+</body>
+</html>

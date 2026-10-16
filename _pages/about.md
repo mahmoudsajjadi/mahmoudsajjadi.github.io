@@ -45,4 +45,9 @@ Before moving into AI, I spent nearly a decade as a control and power systems en
 
 **Power Systems.** Privacy-preserving federated fault detection and PMU event classification across the grid, and EV smart charging and V2G.
 
+## Open-source curations
+
+- [**Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)**](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) &mdash; Curated 3-tier catalog of autonomous software engineering agents, local open-weight models, MCP servers, SWE-bench benchmarks, and an [Interactive GPU VRAM Calculator](https://mahmoudsajjadi.github.io/awesome-ai-coding-tools/).
+- [**Awesome AI Research Tools (2026)**](https://github.com/mahmoudsajjadi/awesome-ai-research-tools) &mdash; Curated directory of scientific literature discovery engines, citation synthesis graphs, LaTeX equation workflows, and an [Academic Research Stack Navigator](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/).
+
 I am open to research scientist, ML engineer, and applied AI roles. The best way to reach me is by email.

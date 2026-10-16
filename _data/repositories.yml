@@ -3,6 +3,10 @@ github_users:
 
 repo_description_lines_max: 2
 
-# Add repositories you want to feature, e.g. "mahmoudsajjadi/my-repo"
-# github_repos:
-#   - mahmoudsajjadi/my-repo
+github_repos:
+  - mahmoudsajjadi/awesome-ai-coding-tools
+  - mahmoudsajjadi/awesome-ai-research-tools
+  - mahmoudsajjadi/SOLAR
+  - mahmoudsajjadi/DTFL
+  - mahmoudsajjadi/ComDML
+  - mahmoudsajjadi/PEM-CAN

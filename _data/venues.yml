@@ -20,3 +20,17 @@
   color: "#6b7280"
 "ICITMCC":
   color: "#6b7280"
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+"Preprint":
+  color: "#7c3aed"
+"Thesis":
+  url: https://www.unr.edu/
+  color: "#0284c7"
+"Open Source":
+  url: https://github.com/mahmoudsajjadi
+  color: "#16a34a"
+"Artifact":
+  url: https://github.com/mahmoudsajjadi
+  color: "#059669"

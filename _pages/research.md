@@ -12,10 +12,13 @@ nav_order: 1
     <div>
       <h4 style="margin-bottom: 0.25rem; font-weight: 700;">🔬 Interactive Research &amp; Citation Hub</h4>
       <p style="margin-bottom: 0; color: var(--global-text-color-light, #8b949e); font-size: 0.95rem;">
-        Explore all 20 publications, preprints, benchmarks, and 1-click BibTeX citations across Foundation Models, Healthcare AI, and Power Systems.
+        Explore all 20 publications, preprints, ResearchGate full-texts, benchmarks, and 1-click BibTeX/IEEE/APA citations across Foundation Models, Healthcare AI, and Power Systems.
       </p>
     </div>
-    <a href="/research-hub.html" class="btn btn-sm btn-primary" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1.2rem; border-radius: 6px;">Open Research Hub &rarr;</a>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <a href="/papers/solar-subspace-latent-adapter-peft.html" class="btn btn-sm btn-outline-primary" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px;">🧮 SOLAR Spotlight &amp; Calculator</a>
+      <a href="/research-hub.html" class="btn btn-sm btn-primary" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1.2rem; border-radius: 6px;">Open Research Hub &rarr;</a>
+    </div>
   </div>
 </div>
 
@@ -32,17 +35,17 @@ Early detection of cognitive decline (Alzheimer's disease, Mild Cognitive Impair
 
 Federated learning, split learning, and decentralized multi-agent learning for heterogeneous edge devices, with convergence analysis in convex and non-convex settings.
 
-- Dynamic tiering for federated learning: **80% shorter training time** on heterogeneous clients (*IEEE Internet of Things Journal*, 2024).
-- Communication-efficient workload balancing for decentralized learning: **26% less slower-side compute** (*IEEE ICDCS*, 2024; 21.9% acceptance rate).
+- **SOLAR** ([Interactive Paper Page &amp; Calculator](/papers/solar-subspace-latent-adapter-peft.html) | [arXiv:2604.08368](https://arxiv.org/abs/2604.08368) | [PyTorch Code](https://github.com/mahmoudsajjadi/solar-peft)): Subspace-oriented latent adapter reparameterization achieving **35.1% lower communication and storage than LoRA** and **1.54x faster distributed sync** on ViT, LLaMA, RoBERTa, and GPT-2.
+- Dynamic tiering for federated learning ([DTFL](/papers/speed-up-federated-learning-dynamic-tiering.html)): **80% shorter training time** on heterogeneous clients (*IEEE Internet of Things Journal*, 2025; Impact Factor: 9.0).
+- Communication-efficient workload balancing for decentralized learning ([ComDML](/papers/decentralized-multi-agent-learning-icdcs.html)): **26% less slower-side compute** (*IEEE ICDCS*, 2024; 21.9% acceptance rate).
 - Privacy-preserving SplitFed with distance correlation and patch shuffling.
-- SOLAR, a subspace-based parameter-efficient fine-tuning method: **35% lower communication and storage than LoRA** on ViT, LLaMA, and GPT-2 (under review).
 
 ## AI for power systems
 
 Federated and privacy-preserving machine learning for the grid and EV ecosystems, informed by nearly a decade of prior control and power/data center engineering experience.
 
 - Federated XGBoost and MLP classifiers for current, voltage, and frequency faults: **91% accuracy** using 80% of local data.
-- Privacy-preserving federated event classification with additive homomorphic encryption: **3,877 events, 23 PMUs, 88&ndash;90% accuracy** on highly non-IID data.
-- Feature collusion attacks on PMU data-driven event classifiers.
+- Privacy-preserving federated event classification with additive homomorphic encryption ([PESGM](/papers/pmu-data-federated-learning-event-classification.html)): **3,877 events, 23 PMUs, 88&ndash;90% accuracy** on highly non-IID data.
+- Feature collusion attacks on PMU data-driven event classifiers ([IEEE ISGT](/papers/feature-collusion-attack-pmu-classification.html)).
 - Generative AI and distributed ML for EV ecosystems (smart charging, V2G): **+44.5% battery SOH estimation accuracy** and **100% CAN bus anomaly detection** in the surveyed frameworks.
 - Data center infrastructure engineering (2014&ndash;2022): redesigned power/cooling for a **22% reduction in energy consumption** and led three builds worth **$35M**.

@@ -12,11 +12,12 @@ nav_order: 1
     <div>
       <h4 style="margin-bottom: 0.25rem; font-weight: 700;">🔬 Interactive Research &amp; Citation Hub</h4>
       <p style="margin-bottom: 0; color: var(--global-text-color-light, #8b949e); font-size: 0.95rem;">
-        Explore all 20 publications, preprints, ResearchGate full-texts, benchmarks, and 1-click BibTeX/IEEE/APA citations across Foundation Models, Healthcare AI, and Power Systems.
+        Explore all 21 publications, preprints, ResearchGate full-texts, benchmarks, and 1-click BibTeX/IEEE/APA citations across Foundation Models, Healthcare AI, and Power Systems.
       </p>
     </div>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
       <a href="/papers/solar-subspace-latent-adapter-peft.html" class="btn btn-sm btn-outline-primary" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px;">🧮 SOLAR Spotlight &amp; Calculator</a>
+      <a href="/papers/sustainable-smart-grid-resilience-marl.html" class="btn btn-sm btn-outline-success" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px;">⚡ Smart Grid MARL Simulator</a>
       <a href="/research-hub.html" class="btn btn-sm btn-primary" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1.2rem; border-radius: 6px;">Open Research Hub &rarr;</a>
     </div>
   </div>
@@ -42,8 +43,9 @@ Federated learning, split learning, and decentralized multi-agent learning for h
 
 ## AI for power systems
 
-Federated and privacy-preserving machine learning for the grid and EV ecosystems, informed by nearly a decade of prior control and power/data center engineering experience.
+Federated, multi-agent, and privacy-preserving machine learning for the grid and EV ecosystems, informed by nearly a decade of prior control and power/data center engineering experience.
 
+- **Sustainable Smart Grid Resilience &amp; MARL** ([Interactive Paper Page &amp; Simulator](/papers/sustainable-smart-grid-resilience-marl.html) | [DOI: 10.3390/su182010574](https://doi.org/10.3390/su182010574) | *MDPI Sustainability*, Vol. 18, No. 20, 10574, 2026): Decentralized multi-agent reinforcement learning for feeder reconfiguration, fault restoration, and battery dispatch, achieving **+51% PV hosting capacity**, **55.1% isolated load restoration across 496 double-fault pairs**, and **72.7% fewer feasibility evaluations**.
 - Federated XGBoost and MLP classifiers for current, voltage, and frequency faults: **91% accuracy** using 80% of local data.
 - Privacy-preserving federated event classification with additive homomorphic encryption ([PESGM](/papers/pmu-data-federated-learning-event-classification.html)): **3,877 events, 23 PMUs, 88&ndash;90% accuracy** on highly non-IID data.
 - Feature collusion attacks on PMU data-driven event classifiers ([IEEE ISGT](/papers/feature-collusion-attack-pmu-classification.html)).

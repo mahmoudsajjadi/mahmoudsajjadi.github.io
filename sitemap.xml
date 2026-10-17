@@ -31,73 +31,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://github.com/mahmoudsajjadi/solar-peft</loc>
+    <loc>https://mahmoudsajjadi.github.io/papers/solar-subspace-latent-adapter-peft.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2026solar.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2026hallucination.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/zhang2025survey.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2025llm_survey.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2025rheumatoid.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2024speed.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2024communication.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/ghasemkhani2024feature.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2024smartgrid.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2024healthcare.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sajjadi2023towards.html</loc>
+    <loc>https://mahmoudsajjadi.github.io/papers/sustainable-smart-grid-resilience-marl.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -187,12 +127,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/solar-subspace-latent-adapter-peft.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://mahmoudsajjadi.github.io/papers/speed-up-federated-learning-dynamic-tiering.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -212,12 +146,6 @@
   </url>
   <url>
     <loc>https://mahmoudsajjadi.github.io/papers/survey-self-supervised-learning-neurocomputing.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mahmoudsajjadi.github.io/papers/sustainable-smart-grid-resilience-marl.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

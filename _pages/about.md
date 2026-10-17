@@ -48,7 +48,7 @@ Before moving into AI, I spent nearly a decade as a control and power systems en
       <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
         <a href="/papers/solar-subspace-latent-adapter-peft.html" class="btn btn-sm btn-primary" style="font-size: 0.8rem; font-weight: 600;">🧮 SOLAR Page &amp; Calculator</a>
         <a href="/papers/sustainable-smart-grid-resilience-marl.html" class="btn btn-sm btn-success" style="font-size: 0.8rem; font-weight: 600;">⚡ Smart Grid MARL Page &amp; Simulator</a>
-        <a href="https://www.researchgate.net/profile/Seyed-Mahmoud-Sajjadi-Mohammadabadi" target="_blank" rel="noopener" class="btn btn-sm btn-outline-info" style="font-size: 0.8rem;">🔬 ResearchGate</a>
+        <a href="https://www.researchgate.net/profile/Mahmoud-Sajjadi-2" target="_blank" rel="noopener" class="btn btn-sm btn-outline-info" style="font-size: 0.8rem;">🔬 ResearchGate</a>
         <a href="https://github.com/mahmoudsajjadi/solar-peft" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary" style="font-size: 0.8rem;">💻 PyTorch Code</a>
         <a href="/research-hub.html" class="btn btn-sm btn-outline-secondary" style="font-size: 0.8rem;">📚 All 21 Publications Hub</a>
       </div>

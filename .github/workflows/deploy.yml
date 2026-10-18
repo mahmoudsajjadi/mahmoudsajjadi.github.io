@@ -12,6 +12,7 @@ on:
       - "**.js"
       - "**.liquid"
       - "**/*.md"
+      - "**.txt"
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"

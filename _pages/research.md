@@ -16,8 +16,10 @@ nav_order: 1
       </p>
     </div>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <a href="https://www.mdpi.com/2071-1050/18/20/10574" target="_blank" rel="noopener" class="btn btn-sm btn-success" style="white-space: nowrap; font-weight: 700; padding: 0.5rem 1rem; border-radius: 6px;">📄 Read Open-Access on MDPI (2026)</a>
+      <a href="https://www.mdpi.com/2071-1050/18/20/10574/pdf" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px;">📥 Official MDPI PDF</a>
+      <a href="/papers/sustainable-smart-grid-resilience-marl.html" class="btn btn-sm btn-outline-info" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px;">⚡ Smart Grid MARL Simulator</a>
       <a href="/papers/solar-subspace-latent-adapter-peft.html" class="btn btn-sm btn-outline-primary" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px;">🧮 SOLAR Spotlight &amp; Calculator</a>
-      <a href="/papers/sustainable-smart-grid-resilience-marl.html" class="btn btn-sm btn-outline-success" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px;">⚡ Smart Grid MARL Simulator</a>
       <a href="/research-hub.html" class="btn btn-sm btn-primary" style="white-space: nowrap; font-weight: 600; padding: 0.5rem 1.2rem; border-radius: 6px;">Open Research Hub &rarr;</a>
     </div>
   </div>
@@ -45,7 +47,7 @@ Federated learning, split learning, and decentralized multi-agent learning for h
 
 Federated, multi-agent, and privacy-preserving machine learning for the grid and EV ecosystems, informed by nearly a decade of prior control and power/data center engineering experience.
 
-- **Sustainable Smart Grid Resilience &amp; MARL** ([Interactive Paper Page &amp; Simulator](/papers/sustainable-smart-grid-resilience-marl.html) | [DOI: 10.3390/su182010574](https://doi.org/10.3390/su182010574) | *MDPI Sustainability*, Vol. 18, No. 20, 10574, 2026): Decentralized multi-agent reinforcement learning for feeder reconfiguration, fault restoration, and battery dispatch, achieving **+51% PV hosting capacity**, **55.1% isolated load restoration across 496 double-fault pairs**, and **72.7% fewer feasibility evaluations**.
+- **Sustainable Smart Grid Resilience &amp; MARL** ([**Read Open-Access on MDPI**](https://www.mdpi.com/2071-1050/18/20/10574) | [**Download Official MDPI PDF**](https://www.mdpi.com/2071-1050/18/20/10574/pdf) | [DOI: 10.3390/su182010574](https://doi.org/10.3390/su182010574) | [Interactive Paper Page &amp; Simulator](/papers/sustainable-smart-grid-resilience-marl.html) | *MDPI Sustainability*, Vol. 18, No. 20, 10574, 2026): Decentralized multi-agent reinforcement learning for feeder reconfiguration, fault restoration, and battery dispatch, achieving **+51% PV hosting capacity**, **55.1% isolated load restoration across 496 double-fault pairs**, and **72.7% fewer feasibility evaluations**.
 - Federated XGBoost and MLP classifiers for current, voltage, and frequency faults: **91% accuracy** using 80% of local data.
 - Privacy-preserving federated event classification with additive homomorphic encryption ([PESGM](/papers/pmu-data-federated-learning-event-classification.html)): **3,877 events, 23 PMUs, 88&ndash;90% accuracy** on highly non-IID data.
 - Feature collusion attacks on PMU data-driven event classifiers ([IEEE ISGT](/papers/feature-collusion-attack-pmu-classification.html)).

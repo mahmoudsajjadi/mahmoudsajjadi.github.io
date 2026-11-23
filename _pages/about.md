@@ -63,7 +63,7 @@ Before moving into AI, I spent nearly a decade as a control and power systems en
 
 ## Selected results
 
-- **PACE** — Pure-ML reasoning and test-time compute optimization ([arXiv:2611.17610](https://arxiv.org/abs/2611.17610) | [Hugging Face Space](https://huggingface.co/spaces/sajjadi/pace-studio) | [GitHub](https://github.com/mahmoudsajjadi/pace)).
+- **PACE** — Pure-ML reasoning and test-time compute optimization ([arXiv:2611.17610](https://arxiv.org/abs/2611.17610) | [Hugging Face Paper](https://huggingface.co/papers/2611.17610) | [PACE Studio](https://huggingface.co/spaces/sajjadi/pace-studio) | [GitHub](https://github.com/mahmoudsajjadi/pace)).
 
 - **+51% renewable PV hosting capacity &amp; 72.7% fewer feasibility evaluations** during multi-fault smart grid restoration using decentralized MARL ([**Read Open-Access on MDPI** (*Sustainability*, 2026, 18(20), 10574)](https://www.mdpi.com/2071-1050/18/20/10574) | [**Official MDPI PDF**](https://www.mdpi.com/2071-1050/18/20/10574/pdf) | [Interactive Simulator &amp; BibTeX](/papers/sustainable-smart-grid-resilience-marl.html)).
 - **80% less training time** for federated and split learning on heterogeneous clients ([*IEEE Internet of Things Journal*, 2025](/papers/speed-up-federated-learning-dynamic-tiering.html)).
